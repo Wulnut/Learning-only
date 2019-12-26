@@ -16,3 +16,4 @@ polar rect_to_polar(rect xypos);
 void show_polar(polar dapos);
 
 #endif
+//写结构体 类 函数的声明

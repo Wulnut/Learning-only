@@ -1,17 +1,21 @@
 #include <iostream>
+#include <cmath>
 #include "coordin.h"
 using namespace std;
 
-int main(){
-    rect replace;
-    polar pplace;
+polar rect_to_polar(rect xypos){
+    polar answer;
 
-    cout << "Enter the x and y values: ";
-    while(cin >> replace.x >> replace.y){
-        pplace = rect_to_polar(replace);
-        show_polar(pplace);
-        cout << "Next two numbers (q to quit): ";
-    }
-    cout << "Bye!\n";
-    return 0;
+    answer.distance = sqrt(xypos.x * xypos.x + xypos.y * xypos.y);
+    answer.angle = atan2(xypos.x, xypos.y);
+    return answer;
 }
+
+void show_polar (polar dapos){
+    const double Rad_to_deg = 57.29577951;
+
+    cout << "distance = " << dapos.distance;
+    cout << ", angle = " << dapos.angle * Rad_to_deg;
+    cout << " degrees\n";
+}
+//函数的实现  注意要加上头文件和函数实现时需要的函数名称
