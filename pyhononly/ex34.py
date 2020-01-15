@@ -1,4 +1,4 @@
-
+"""
 key = input("请输入加密密匙：")
 enc = input("请输入要加密的字符: ")
 
@@ -7,7 +7,7 @@ print("加密结果:",chr(dec))
 
 enc = ord(key) ^ dec
 print("解密结果:",chr(enc))
-
+"""
 
 #ord()函数主要是将传入的参数转换成ASCII码
 #chr()函数主要是将传入的ASCII转换成其对应的字符，同样也可以使用十进制和十六进制
@@ -20,3 +20,10 @@ help(pow)
 a = 20
 print("a是整型么？", isinstance(a, int))
 """
+
+a = eval('2 + 3')
+print("a: ", a)
+
+a, b = eval(input("请输入两个数(用','隔开): "))
+print("a: ", a)
+print("b: ", b)
