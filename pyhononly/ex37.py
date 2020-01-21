@@ -27,6 +27,7 @@ for car in carlist:
     print(car,end = ' ')
 """
 
+"""
 carlist = ["aaa","bbb","ccc","ddd","eee","fff","bbb"]
 
 #carlist.append("ggg")
@@ -35,3 +36,4 @@ carlist = ["aaa","bbb","ccc","ddd","eee","fff","bbb"]
 carlist[6:] = ["iii","ggg"] 
 
 print(carlist)
+"""
