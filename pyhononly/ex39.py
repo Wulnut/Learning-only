@@ -26,6 +26,7 @@ def add(b):
 print(add(2))
 """
 
+"""
 def DECO(args):
     def deco(func):
         def call_func(x,y):
@@ -42,8 +43,23 @@ def andFunc(x,y):
 def orFunc(x,y):
     return x | y
 
-_name_ = "_main_"
+#_name_ = "_main_"
 
-if _name_ == "_main_":
+if __name__ == "__main__": #__main__ 下划线是双下划线
     print(andFunc(5,6))
     print(orFunc(5,6))
+"""
+
+"""
+class car:
+    def __init__(self,name):
+        self.name = name
+    
+    def getName(self):
+        return self.name
+
+c1 = car("ok")
+
+print("This is :",c1.getName())
+"""
+
