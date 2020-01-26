@@ -59,7 +59,7 @@ using namespace std;
 
 
 int main(){
-
+    /*
    stack<int> s;
 
     for( int i = 0; i < 10; i++){
@@ -73,7 +73,29 @@ int main(){
     s.push(11);
     cout<<s.top()<<endl;
 
+    s.pop();
+    cout<<s.top()<<endl;
 
+    if(!s.empty()){
+        cout<<"ok"<<endl;
+    }
+    */
+
+  /* queue<int> q;
+
+   for( int i = 0; i < 10; i++){
+       q.push(i);
+   }
+
+
+   cout<<q.front()<<endl;
+   cout<<q.back()<<endl;
+   cout<<q.size()<<endl;
+
+
+   q.pop();
+   cout<<q.front()<<endl;
+   */
 
     return 0;
 }
