@@ -20,7 +20,7 @@ FACE_HEIGHT = 112
 
 # base dir
 BASE_DIR = os.path.abspath('./')
-print BASE_DIR
+print(BASE_DIR)
 
 HAAR_FACES         = 'haarcascade_frontalface_alt.xml'
 HAAR_SCALE_FACTOR  = 1.3
