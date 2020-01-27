@@ -20,10 +20,18 @@ bool dfs(int x, int y){
     for (int i = 0; i < 4; ++i) {
         int t_x = x + dir[i][0];
         int t_y = y + dir[i][1];
-        if (in(t_x, t_y) && maze[t_x][t_y] != '*' && !vis[t_x][t_y]) {
 
+        if (in(t_x, t_y) && maze[t_x][t_y] != '*' && !vis[t_x][t_y]) {
+            if (dfs(t_x, t_y)){
+                return true;
+            }
         }
     }
+
+    vis[x][y] = 0;
+    maze[x][y] = '.';
+    
+    return false;
 }
 
 
