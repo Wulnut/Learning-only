@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.12)  31 JAN 2020 22:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.12)  1 FEB 2020 16:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -463,173 +463,7 @@ File: lstlang1.sty 2019/02/27 1.8b listings language file
 File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
 )) (d:/texlive/2019/texmf-dist/tex/latex/psnfss/palatino.sty
 Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
-) (d:/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.sty (d:/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2019-04-06 L3 programming layer (loader) 
- (d:/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2019-04-06 L3 programming layer (code)
-\c_max_int=\count141
-\l_tmpa_int=\count142
-\l_tmpb_int=\count143
-\g_tmpa_int=\count144
-\g_tmpb_int=\count145
-\g__kernel_prg_map_int=\count146
-\c__ior_term_ior=\count147
-\c_log_iow=\count148
-\l_iow_line_count_int=\count149
-\l__iow_line_target_int=\count150
-\l__iow_one_indent_int=\count151
-\l__iow_indent_int=\count152
-\c_zero_dim=\dimen155
-\c_max_dim=\dimen156
-\l_tmpa_dim=\dimen157
-\l_tmpb_dim=\dimen158
-\g_tmpa_dim=\dimen159
-\g_tmpb_dim=\dimen160
-\c_zero_skip=\skip75
-\c_max_skip=\skip76
-\l_tmpa_skip=\skip77
-\l_tmpb_skip=\skip78
-\g_tmpa_skip=\skip79
-\g_tmpb_skip=\skip80
-\c_zero_muskip=\muskip12
-\c_max_muskip=\muskip13
-\l_tmpa_muskip=\muskip14
-\l_tmpb_muskip=\muskip15
-\g_tmpa_muskip=\muskip16
-\g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count153
-\l__intarray_loop_int=\count154
-\c__intarray_sp_dim=\dimen161
-\g__intarray_font_int=\count155
-\c__fp_leading_shift_int=\count156
-\c__fp_middle_shift_int=\count157
-\c__fp_trailing_shift_int=\count158
-\c__fp_big_leading_shift_int=\count159
-\c__fp_big_middle_shift_int=\count160
-\c__fp_big_trailing_shift_int=\count161
-\c__fp_Bigg_leading_shift_int=\count162
-\c__fp_Bigg_middle_shift_int=\count163
-\c__fp_Bigg_trailing_shift_int=\count164
-\c__kernel_randint_max_int=\count165
-\g__fp_array_int=\count166
-\l__fp_array_loop_int=\count167
-\l__sort_length_int=\count168
-\l__sort_min_int=\count169
-\l__sort_top_int=\count170
-\l__sort_max_int=\count171
-\l__sort_true_max_int=\count172
-\l__sort_block_int=\count173
-\l__sort_begin_int=\count174
-\l__sort_end_int=\count175
-\l__sort_A_int=\count176
-\l__sort_B_int=\count177
-\l__sort_C_int=\count178
-\l__tl_analysis_normal_int=\count179
-\l__tl_analysis_index_int=\count180
-\l__tl_analysis_nesting_int=\count181
-\l__tl_analysis_type_int=\count182
-\l__regex_internal_a_int=\count183
-\l__regex_internal_b_int=\count184
-\l__regex_internal_c_int=\count185
-\l__regex_balance_int=\count186
-\l__regex_group_level_int=\count187
-\l__regex_mode_int=\count188
-\c__regex_cs_in_class_mode_int=\count189
-\c__regex_cs_mode_int=\count190
-\l__regex_catcodes_int=\count191
-\l__regex_default_catcodes_int=\count192
-\c__regex_catcode_D_int=\count193
-\c__regex_catcode_S_int=\count194
-\c__regex_catcode_L_int=\count195
-\c__regex_catcode_O_int=\count196
-\c__regex_catcode_A_int=\count197
-\c__regex_all_catcodes_int=\count198
-\l__regex_show_lines_int=\count199
-\l__regex_min_state_int=\count266
-\l__regex_max_state_int=\count267
-\l__regex_left_state_int=\count268
-\l__regex_right_state_int=\count269
-\l__regex_capturing_group_int=\count270
-\l__regex_min_pos_int=\count271
-\l__regex_max_pos_int=\count272
-\l__regex_curr_pos_int=\count273
-\l__regex_start_pos_int=\count274
-\l__regex_success_pos_int=\count275
-\l__regex_curr_char_int=\count276
-\l__regex_curr_catcode_int=\count277
-\l__regex_last_char_int=\count278
-\l__regex_case_changed_char_int=\count279
-\l__regex_curr_state_int=\count280
-\l__regex_step_int=\count281
-\l__regex_min_active_int=\count282
-\l__regex_max_active_int=\count283
-\l__regex_replacement_csnames_int=\count284
-\l__regex_match_count_int=\count285
-\l__regex_min_submatch_int=\count286
-\l__regex_submatch_int=\count287
-\l__regex_zeroth_submatch_int=\count288
-\g__regex_trace_regex_int=\count289
-\c_empty_box=\box39
-\l_tmpa_box=\box40
-\l_tmpb_box=\box41
-\g_tmpa_box=\box42
-\g_tmpb_box=\box43
-\l__box_top_dim=\dimen162
-\l__box_bottom_dim=\dimen163
-\l__box_left_dim=\dimen164
-\l__box_right_dim=\dimen165
-\l__box_top_new_dim=\dimen166
-\l__box_bottom_new_dim=\dimen167
-\l__box_left_new_dim=\dimen168
-\l__box_right_new_dim=\dimen169
-\l__box_internal_box=\box44
-\l__coffin_internal_box=\box45
-\l__coffin_internal_dim=\dimen170
-\l__coffin_offset_x_dim=\dimen171
-\l__coffin_offset_y_dim=\dimen172
-\l__coffin_x_dim=\dimen173
-\l__coffin_y_dim=\dimen174
-\l__coffin_x_prime_dim=\dimen175
-\l__coffin_y_prime_dim=\dimen176
-\c_empty_coffin=\box46
-\l__coffin_aligned_coffin=\box47
-\l__coffin_aligned_internal_coffin=\box48
-\l_tmpa_coffin=\box49
-\l_tmpb_coffin=\box50
-\g_tmpa_coffin=\box51
-\g_tmpb_coffin=\box52
-\l__coffin_bounding_shift_dim=\dimen177
-\l__coffin_left_corner_dim=\dimen178
-\l__coffin_right_corner_dim=\dimen179
-\l__coffin_bottom_corner_dim=\dimen180
-\l__coffin_top_corner_dim=\dimen181
-\l__coffin_scaled_total_height_dim=\dimen182
-\l__coffin_scaled_width_dim=\dimen183
-\c__coffin_empty_coffin=\box53
-\l__coffin_display_coffin=\box54
-\l__coffin_display_coord_coffin=\box55
-\l__coffin_display_pole_coffin=\box56
-\l__coffin_display_offset_dim=\dimen184
-\l__coffin_display_x_dim=\dimen185
-\l__coffin_display_y_dim=\dimen186
-\g__file_internal_ior=\read2
-\l__seq_internal_a_int=\count290
-\l__seq_internal_b_int=\count291
-\c__deprecation_minus_one=\count292
-) (d:/texlive/2019/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
-File: l3pdfmode.def 2019-04-06 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count293
-)) (d:/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2019-03-05 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count294
-\g__xparse_grabber_int=\count295
-\l__xparse_m_args_int=\count296
-\l__xparse_v_nesting_int=\count297
-)
-Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
- (d:/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
-File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
-)) (d:/Users/code/Learning only/latexonly/mcmthesis-demo.aux)
+) (d:/Users/code/Learning only/latexonly/mcmthesis-demo.aux)
 \openout1 = `mcmthesis-demo.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -653,19 +487,19 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 39.
-\c@lstlisting=\count298
+\c@lstlisting=\count141
  (d:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count299
-\scratchdimen=\dimen187
-\scratchbox=\box57
-\nofMPsegments=\count300
-\nofMParguments=\count301
+\scratchcounter=\count142
+\scratchdimen=\dimen155
+\scratchbox=\box39
+\nofMPsegments=\count143
+\nofMParguments=\count144
 \everyMPshowfont=\toks39
-\MPscratchCnt=\count302
-\MPscratchDim=\dimen188
-\MPnumerator=\count303
-\makeMPintoPDFobject=\count304
+\MPscratchCnt=\count145
+\MPscratchDim=\dimen156
+\MPnumerator=\count146
+\makeMPintoPDFobject=\count147
 \everyMPtoPDFconversion=\toks40
 )
 *geometry* driver: auto-detecting
@@ -702,14 +536,14 @@ Package lastpage Info: Please have a look at the pageslts package at
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box58
+\AtBeginShipoutBox=\box40
 Package hyperref Info: Link coloring OFF on input line 39.
 (d:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (d:/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count305
+\c@section@level=\count148
 )
 LaTeX Info: Redefining \ref on input line 39.
 LaTeX Info: Redefining \pageref on input line 39.
@@ -718,28 +552,28 @@ LaTeX Info: Redefining \nameref on input line 39.
 \@outlinefile=\write4
 \openout4 = `mcmthesis-demo.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 46.
+LaTeX Font Info:    Try loading font information for U+msa on input line 70.
  (d:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 46.
+LaTeX Font Info:    Try loading font information for U+msb on input line 70.
  (d:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 46.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 70.
  (d:/texlive/2019/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 46.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 70.
  (d:/texlive/2019/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 46.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 70.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 46.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 70.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 46.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 70.
  [1
 
 {d:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -749,28 +583,28 @@ LaTeX Warning: No \author given.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.46 \maketitle
+l.70 \maketitle
                 [2]
-LaTeX Font Info:    Try loading font information for T1+phv on input line 47.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 71.
  (d:/texlive/2019/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 47.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 71.
  (d:/Users/code/Learning only/latexonly/mcmthesis-demo.toc)
 \tf@toc=\write5
 \openout5 = `mcmthesis-demo.toc'.
 
  [1]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 54.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 80.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 94.
  (d:/texlive/2019/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 54.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 94.
  [2]
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 84.
 Package epstopdf Info: Source file: <./figures/mcmthesis-aaa.eps>
 (epstopdf)                    date: 2019-12-02 22:31:26
 (epstopdf)                    size: 458067 bytes
@@ -778,56 +612,56 @@ Package epstopdf Info: Source file: <./figures/mcmthesis-aaa.eps>
 (epstopdf)                    date: 2019-12-02 22:31:26
 (epstopdf)                    size: 78739 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/mcmthesis-aaa-eps-converted-to.pdf ./figures/mcmthesis-aaa.eps>
-(epstopdf)             \includegraphics on input line 99.
+(epstopdf)             \includegraphics on input line 160.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/mcmthesis-aaa-eps-converted-to.pdf, id=114, 421.575pt x 317.185pt>
+<./figures/mcmthesis-aaa-eps-converted-to.pdf, id=127, 421.575pt x 317.185pt>
 File: ./figures/mcmthesis-aaa-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/mcmthesis-aaa-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/mcmthesis-aaa-eps-converted-to.pdf  used on input line 99.
+Package pdftex.def Info: ./figures/mcmthesis-aaa-eps-converted-to.pdf  used on input line 160.
 (pdftex.def)             Requested size: 341.43306pt x 256.89423pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3] [4 <./figures/mcmthesis-aaa-eps-converted-to.pdf>] [5]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 173.
+[3] [4 <./figures/mcmthesis-aaa-eps-converted-to.pdf>]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 229.
  (d:/texlive/2019/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [6]
+)
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 191.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 245.
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
 
-[7] (d:/Users/code/Learning only/latexonly/./code/mcmthesis-matlab1.m
+(d:/Users/code/Learning only/latexonly/./code/mcmthesis-matlab1.m
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <9> not available
 (Font)              Font shape `T1/pcr/b/n' tried instead on input line 1.
-) (d:/Users/code/Learning only/latexonly/./code/ex10.cpp [8]) 
+) [5] (d:/Users/code/Learning only/latexonly/./code/ex10.cpp [6]) 
 AED: lastpage setting LastPage
-[9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 208.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 208.
+[7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 261.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 261.
  (d:/Users/code/Learning only/latexonly/mcmthesis-demo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 208.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 208.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 261.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 261.
 Package rerunfilecheck Info: File `mcmthesis-demo.out' has not changed.
-(rerunfilecheck)             Checksum: 24183DC297F00D9026F1608FB53AEB0D;916.
+(rerunfilecheck)             Checksum: 639240B5F65286F68BCE16369305CD35;1067.
  ) 
 Here is how much of TeX's memory you used:
- 21218 strings out of 492623
- 350328 string characters out of 6133290
- 802115 words of memory out of 5000000
- 24715 multiletter control sequences out of 15000+600000
- 576438 words of font info for 117 fonts, out of 8000000 for 9000
+ 11566 strings out of 492623
+ 158120 string characters out of 6133290
+ 484664 words of memory out of 5000000
+ 15088 multiletter control sequences out of 15000+600000
+ 47740 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,13n,99p,931b,2240s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,13n,99p,931b,2191s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "d:/Users/code/Learning only/latexonly/mcmthesis-demo.pdf" (11 pages, 249342 bytes).
+Output written on "d:/Users/code/Learning only/latexonly/mcmthesis-demo.pdf" (9 pages, 248779 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
- 286 compressed objects within 3 object streams
- 107 named destinations out of 1000 (max. 500000)
- 142 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 320 PDF objects out of 1000 (max. 8388607)
+ 290 compressed objects within 3 object streams
+ 108 named destinations out of 1000 (max. 500000)
+ 158 words of extra memory for PDF output out of 10000 (max. 10000000)
 

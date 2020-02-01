@@ -157,32 +157,6 @@ INPUT d:/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT d:/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT d:/texlive/2019/texmf-dist/tex/latex/psnfss/palatino.sty
 INPUT d:/texlive/2019/texmf-dist/tex/latex/psnfss/palatino.sty
-INPUT d:/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.sty
-INPUT d:/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.sty
-INPUT d:/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
-INPUT d:/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
-INPUT d:/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-INPUT d:/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT d:/texlive/2019/texmf-dist/tex/generic/unicode-data/UnicodeData.txt
-INPUT d:/texlive/2019/texmf-dist/tex/generic/unicode-data/UnicodeData.txt
-INPUT d:/Users/code/Learning only/latexonly/nul:
-INPUT d:/Users/code/Learning only/latexonly/nul:.tex
-INPUT d:/texlive/2019/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
-INPUT d:/texlive/2019/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
-INPUT d:/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-INPUT d:/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-INPUT d:/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
-INPUT d:/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
 INPUT d:/Users/code/Learning only/latexonly/mcmthesis-demo.aux
 INPUT d:/Users/code/Learning only/latexonly/mcmthesis-demo.aux
 OUTPUT d:/Users/code/Learning only/latexonly/mcmthesis-demo.aux
@@ -286,13 +260,13 @@ INPUT d:/texlive/2019/texmf-dist/fonts/vf/adobe/helvetic/phvr8t.vf
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
-INPUT d:/texlive/2019/texmf-dist/tex/latex/psnfss/omsppl.fd
-INPUT d:/texlive/2019/texmf-dist/tex/latex/psnfss/omsppl.fd
-INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplri8t.tfm
-INPUT d:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplri8t.vf
-INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
-INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplri8t.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplb8t.tfm
+INPUT d:/texlive/2019/texmf-dist/tex/latex/psnfss/omsppl.fd
+INPUT d:/texlive/2019/texmf-dist/tex/latex/psnfss/omsppl.fd
+INPUT d:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
+INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
+INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplri8t.tfm
+INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplri8t.tfm
 INPUT d:/Users/code/Learning only/latexonly/./figures/mcmthesis-aaa.eps
 INPUT ./figures/mcmthesis-aaa.eps
 INPUT ./figures/mcmthesis-aaa.eps
@@ -302,10 +276,6 @@ INPUT ./figures/mcmthesis-aaa.eps
 INPUT ./figures/mcmthesis-aaa-eps-converted-to.pdf
 INPUT ./figures/mcmthesis-aaa-eps-converted-to.pdf
 INPUT ./figures/mcmthesis-aaa-eps-converted-to.pdf
-INPUT d:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplri8t.vf
-INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
-INPUT d:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
-INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplr8t.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
@@ -316,17 +286,15 @@ INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/public/latex-fonts/lasy5.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplr8t.tfm
+INPUT d:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplri8t.vf
+INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
+INPUT d:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplri8t.vf
+INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
 INPUT d:/texlive/2019/texmf-dist/tex/latex/psnfss/t1pcr.fd
 INPUT d:/texlive/2019/texmf-dist/tex/latex/psnfss/t1pcr.fd
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrr8t.tfm
-INPUT d:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplr8t.vf
-INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplr8t.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplb8t.tfm
-INPUT d:/texlive/2019/texmf-dist/fonts/vf/adobe/courier/pcrr8t.vf
-INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
-INPUT d:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
-INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT d:/Users/code/Learning only/latexonly/./code/mcmthesis-matlab1.m
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplr8t.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrr8t.tfm
@@ -334,12 +302,18 @@ INPUT d:/Users/code/Learning only/latexonly/./code/mcmthesis-matlab1.m
 INPUT d:/Users/code/Learning only/latexonly/./code/mcmthesis-matlab1.m
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrb8t.tfm
 INPUT d:/Users/code/Learning only/latexonly/./code/ex10.cpp
-INPUT d:/Users/code/Learning only/latexonly/./code/ex10.cpp
-INPUT d:/Users/code/Learning only/latexonly/./code/ex10.cpp
+INPUT d:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplr8t.vf
+INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
+INPUT d:/texlive/2019/texmf-dist/fonts/vf/adobe/courier/pcrr8t.vf
+INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
+INPUT d:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
+INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/vf/adobe/courier/pcrb8t.vf
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrb8r.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/vf/adobe/courier/pcrr8t.vf
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
+INPUT d:/Users/code/Learning only/latexonly/./code/ex10.cpp
+INPUT d:/Users/code/Learning only/latexonly/./code/ex10.cpp
 INPUT d:/Users/code/Learning only/latexonly/mcmthesis-demo.aux
 INPUT d:/Users/code/Learning only/latexonly/mcmthesis-demo.out
 INPUT d:/Users/code/Learning only/latexonly/mcmthesis-demo.out

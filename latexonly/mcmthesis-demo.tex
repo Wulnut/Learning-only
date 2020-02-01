@@ -28,19 +28,43 @@
 %% 
 \documentclass{mcmthesis}
 \mcmsetup{CTeX = false,   % 使用 CTeX 套装时，设置为 true
-        tcn = 1002, problem = A,
+        tcn = 34317, problem = A,
         sheet = true, titleinsheet = true, keywordsinsheet = true,
         titlepage = true, abstract = true}
 \usepackage{palatino}
-\usepackage{lipsum}
+\usepackage{booktabs}
 \title{Stochastic and Dterministic Models of the Eradication of
 Ebola in West Africa}
 \date{\today}
 \begin{document}
 \begin{abstract}
-\lipsum[1]
+As a number fo Global Village, we do out bset to help \textbf{eradicate} Ebola
+
+First, we develop a stage-structrured model of Ebola Propagation. In the model, we
+consider the susceptible, the exposed, the infected whose disease is not advanced, the infected whose
+disease is serious, the removed and the dead. The model is good at predicting near future cases` number
+but fails in predicting far future cases` number. Then we take hospital into consideration and add 7 more
+parameters, then we do simulation once again. Finally, we get a better result that the model well predicts
+the future cases. For example, the model predicts there are 4000 total cases and 2500 death cases in Guinea,
+9509 total cases and 4166 death case in Liberia, 12556 total cases and 2922 death cases in Sierra Leone up to 
+April, $1^{st}$, 2015.
+
+Second, we determine the location fo delivery. We invoke clustering method to divide the most serious region, namely,
+West Africa into three parts, Guinea, Liberia and Sierra Leone, According to locations of provincial capital, we use clustering
+method once again to divide a country into several clusters. Then we adopt P-Center Method to determine a location of 
+delivery in each cluster. We find there are two kinds of ways to choose. One is one-way route and the other is circular route. As for
+one-way route, in some ways, is a little bit similar to TSP problem, we use mix integer programming to find an optimal circular route by
+Lingo Software and each location of delivery has two optimal circular routes. The result is that there are 3 locations of delivery in Guinea,
+1 location of delivery in Liberia and i lcoation of delivery in Sierra Leone.
+
+Third, we know from the stages-structrured model the Ebola cannot stop spreading by itself, Since we are going to eradicate Ebola, we
+must use medicine and vaccine to stop Ebola. Medicine mainly influences the number of the susceptible while vaccine mainly influences
+the number of the infected whose disears is not advanced, in this way, we can eradicate Ebola. As for speed of manufacturing, we consider there is
+a linear equation between the speed and time because the amount of medicine is too rare to meet the requrement of patients. And this situation continues
+until the requirement is met. We can calculate the speed  by the parameter in the linear equation. And we allocate medicine to different places by ratio of
+the infected number in that place to the number in three West African countries. Thus, we successfully stop Ebola from sperading.
 \begin{keywords}
-keyword1; keyword2
+SEIIRF Model TSP Model Clustering Method Ebola Evaluating
 \end{keywords}
 \end{abstract}
 \maketitle
@@ -48,13 +72,42 @@ keyword1; keyword2
 \newpage
 
 \section{Introduction}
+Ebola, a familiar but strange word to us. When the Ebola virus out broke in West Africa and caused plenty of deaths, no one
+would imagine the disastrous scene without mercy. And, of course, no one believe that word 'Ebola' just originated from a peaceful and 
+beautiful river -- Ebola River in Congo. Contrary to its attracting meaning, it is true that the Ebola virus do take lots of victims`
+live away. Countries all over the world, thus, have taken strategies, more specifically, distribute health works to disease-torn countries, speed up
+the development of medicine and establish feasible delivery systems to contain Ebola propagation. 
+\subsection{Aims are changing now}
+The battle against Ebola will cost us heavily for sure, but human being are not
+easily defeated. Although Ebola virus is fatal, we have methods. The WMA (World Medical Association) has announced that
+ they have developed medicine to cure Ebola, but at another it is the result of human nature. We know calling the command
+center to take away the sick is equally hard. It is out \cite{5}
+\subsection{Our understanding of the words}
+The battle against Ebola will cost us heavily for sure, but human beings are not easily defeated. Although Ebola virus is
+fatal.
 
-\lipsum[2]
+\textbf{Spread of the Disease:}We consider this sub-problem as a requirement to analyze Ebola propagation process and predict
+future cases, includeing total cases and death cases in th e three West African countreies, such as in the United States or in The
+United Kingdom, good health condition and developed facilities can contain the cases well, so in this paper, we mainly discuss Ebola
+cases in West African. 
 \begin{itemize}
 \item minimizes the discomfort to the hands, or
 \item maximizes the outgoing velocity of the ball.
 \end{itemize}
 We focus exclusively on the second definition.
+
+\begin{center}
+\begin{tabular}{ccccc}
+  \toprule
+  number & sex & old & tall/cm & weight/kg \\
+  \midrule
+  1 & F & 14 & 156 & 42 \\
+  2 & F & 16 & 158 & 45 \\
+  3 & M & 14 & 162 & 48 \\
+  4 & M & 18 & 170 & 50 \\
+  \bottomrule
+\end{tabular}
+\end{center}
 
 \begin{itemize}
 \item the initial velocity and rotation of the ball,
@@ -62,14 +115,12 @@ We focus exclusively on the second definition.
 \item the relative position and orientation of the bat and ball, and
 \item the force over time that the hitter hands applies on the handle.
 \end{itemize}
-\lipsum[3]
 \begin{itemize}
 \item the angular velocity of the bat,
 \item the velocity of the ball, and
 \item the position of impact along the bat.
 \end{itemize}
-\lipsum[4]
-\emph{center of percussion} [Brody 1986], \lipsum[5]
+\emph{center of percussion} [Brody 1986]
 
 \begin{Theorem} \label{thm:latex}
 \LaTeX
@@ -82,7 +133,6 @@ The proof of theorem.
 \end{proof}
 
 \subsection{Other Assumptions}
-\lipsum[6]
 \begin{itemize}
 \item
 \item
@@ -90,7 +140,18 @@ The proof of theorem.
 \item
 \end{itemize}
 
-\lipsum[7]
+\begin{center}
+\begin{tabular}{| > {$}r < {$}|>{\setlength \parindent{2em}}m{15em}|
+  > {\centering \arraybackslash}m{4em}|}
+\hline
+\pi & ok sij ajkjs ak j & normal \\
+\hline
+\aleph
+\aleph & lijkjk & normal \\
+\hline
+\end{tabular}
+\end{center}
+
 
 \section{Analysis of the Problem}
 \begin{figure}[h]
@@ -100,7 +161,7 @@ The proof of theorem.
 \caption{aa} \label{fig:aa}
 \end{figure}
 
-\lipsum[8] \eqref{aa}
+\eqref{aa}
 \begin{equation}
 a^2 \label{aa}
 \end{equation}
@@ -113,15 +174,12 @@ a^2 \label{aa}
   \end{pmatrix}
   = \frac{{Opposite}}{{Hypotenuse}}\cos ^{ - 1} \theta \arcsin \theta
 \]
-\lipsum[9]
 
 \[
   p_{j}=\begin{cases} 0,&\text{if $j$ is odd}\\
   r!\,(-1)^{j/2},&\text{if $j$ is even}
   \end{cases}
 \]
-
-\lipsum[10]
 
 \[
   \arcsin \theta  =
@@ -132,24 +190,22 @@ a^2 \label{aa}
 \]
 
 \section{Calculating and Simplifying the Model  }
-\lipsum[11]
 
 \section{The Model Results}
-\lipsum[6]
 
 \section{Validating the Model}
-\lipsum[9]
 
 \section{Conclusions}
-\lipsum[6]
 
 \section{A Summary}
-\lipsum[6]
 
 \section{Evaluate of the Mode}
 
 \section{Strengths and weaknesses}
-\lipsum[12]
+\[
+\mathcal{F}(x) = \sum_{k = 0}^\infty
+\oint_0^1 f_k(x,t) \, \mathrm{d}t
+\]
 
 \subsection{Strengths}
 \begin{itemize}
@@ -172,27 +228,24 @@ Publishing Company , 1984-1986.
 Addison-Wesley Publishing Company, 1986.
 \bibitem{3}\url{http://www.latexstudio.net/}
 \bibitem{4}\url{http://www.chinatex.org/}
+\bibitem{5}ok
 \end{thebibliography}
 
 
 \section{test1}
 
-\lipsum[10]
 
 \section{test2}
 
-\lipsum[11]
 
 \section{appendix}
 
-\lipsum[12]
 
 
 \begin{appendices}
 
 \section{First appendix}
 
-\lipsum[13]
 
 Here are simulation programmes we used in our model as follow.\\
 
