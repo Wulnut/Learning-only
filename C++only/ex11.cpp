@@ -12,7 +12,7 @@ bool in(int x, int y) {
 }
 
 void dfs(int x, int y) {
-    int tx,ty;
+    int tx, ty;
 
     vis[x][y] = 1;
 
@@ -32,28 +32,30 @@ void dfs(int x, int y) {
     }
 }
 
-void print() {
-    cout << ans << endl;
+void print(){
+    cout << ans + 1 << endl;
 }
 
 int main() {
    freopen("note.txt", "r", stdin);
    freopen("ans.txt", "w", stdout);
 
+    int i , j;
     int x, y, ans = 0;
-    cin >> n >> m;
+    cin >> m >> n;
 
-    for (int i = 0; i <n; ++i) {
+    for (i = 0; i <n; ++i) {
         cin >> maze[i];
     }
 
-    for ( int i = 0; i < n; ++i) {
-        for (int j = 0; j < m; ++j) {
+    for (i = 0; i < n; ++i) {
+        for (j = 0; j < m; ++j) {
             if (maze[i][j] == '@') {
                 dfs(i, j);
                 break;
             }
         }
+        if (maze[i][j] == '@') break;
     }
 
     print();

@@ -38,20 +38,23 @@ int main(){
     //freopen("ans.txt", "w", stdout);
     cin >> n >> m;
 
+    int i , j;
     int x, y;
     int steep = 0;
 
-    for ( int i = 0; i < n; ++i) {
+    for (i = 0; i < n; ++i) {
         cin >> maze[i];
     }
 
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < m; ++j){
+    for (i = 0; i < n; ++i) {
+        for (j = 0; j < m; ++j){
             if (maze[i][j] == 'S'){
                 x = i;
                 y = j;
+                break;
             }
         }
+        if (maze[i][j] == 'S') break;
     }
 
     dfs(x, y, 0);
