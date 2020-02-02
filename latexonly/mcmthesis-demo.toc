@@ -11,9 +11,10 @@
 \contentsline {section}{\numberline {8}Evaluate of the Mode}{4}{section.8}% 
 \contentsline {section}{\numberline {9}Strengths and weaknesses}{4}{section.9}% 
 \contentsline {subsection}{\numberline {9.1}Strengths}{4}{subsection.9.1}% 
-\contentsline {section}{\numberline {10}test1}{5}{section.10}% 
-\contentsline {section}{\numberline {11}test2}{5}{section.11}% 
-\contentsline {section}{\numberline {12}appendix}{5}{section.12}% 
-\contentsline {section}{Appendices}{5}{section*.2}% 
-\contentsline {section}{Appendix \numberline {A}First appendix}{5}{Appendix.a.A}% 
+\contentsline {subsection}{\numberline {9.2}test2}{5}{subsection.9.2}% 
+\contentsline {section}{\numberline {10}test1}{6}{section.10}% 
+\contentsline {section}{\numberline {11}test2}{6}{section.11}% 
+\contentsline {section}{\numberline {12}appendix}{6}{section.12}% 
+\contentsline {section}{Appendices}{6}{section*.2}% 
+\contentsline {section}{Appendix \numberline {A}First appendix}{6}{Appendix.a.A}% 
 \contentsline {section}{Appendix \numberline {B}Second appendix}{6}{Appendix.a.B}% 

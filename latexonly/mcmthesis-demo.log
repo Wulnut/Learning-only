@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.12)  1 FEB 2020 16:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.12)  2 FEB 2020 17:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -466,27 +466,27 @@ Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR)
 ) (d:/Users/code/Learning only/latexonly/mcmthesis-demo.aux)
 \openout1 = `mcmthesis-demo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 40.
  (d:/texlive/2019/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 39.
+(lastpage)             ! on input line 40.
 \c@lstlisting=\count141
  (d:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -537,7 +537,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box40
-Package hyperref Info: Link coloring OFF on input line 39.
+Package hyperref Info: Link coloring OFF on input line 40.
 (d:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (d:/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -545,35 +545,35 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count148
 )
-LaTeX Info: Redefining \ref on input line 39.
-LaTeX Info: Redefining \pageref on input line 39.
-LaTeX Info: Redefining \nameref on input line 39.
+LaTeX Info: Redefining \ref on input line 40.
+LaTeX Info: Redefining \pageref on input line 40.
+LaTeX Info: Redefining \nameref on input line 40.
  (d:/Users/code/Learning only/latexonly/mcmthesis-demo.out) (d:/Users/code/Learning only/latexonly/mcmthesis-demo.out)
 \@outlinefile=\write4
 \openout4 = `mcmthesis-demo.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 70.
+LaTeX Font Info:    Try loading font information for U+msa on input line 71.
  (d:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 70.
+LaTeX Font Info:    Try loading font information for U+msb on input line 71.
  (d:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 70.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 71.
  (d:/texlive/2019/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 70.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 71.
  (d:/texlive/2019/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 70.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 71.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 70.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 71.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 70.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 71.
  [1
 
 {d:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -583,27 +583,27 @@ LaTeX Warning: No \author given.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.70 \maketitle
+l.71 \maketitle
                 [2]
-LaTeX Font Info:    Try loading font information for T1+phv on input line 71.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 72.
  (d:/texlive/2019/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 71.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 72.
  (d:/Users/code/Learning only/latexonly/mcmthesis-demo.toc)
 \tf@toc=\write5
 \openout5 = `mcmthesis-demo.toc'.
 
  [1]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 80.
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 94.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 81.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 95.
  (d:/texlive/2019/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 94.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 95.
  [2]
 Package epstopdf Info: Source file: <./figures/mcmthesis-aaa.eps>
 (epstopdf)                    date: 2019-12-02 22:31:26
@@ -612,56 +612,56 @@ Package epstopdf Info: Source file: <./figures/mcmthesis-aaa.eps>
 (epstopdf)                    date: 2019-12-02 22:31:26
 (epstopdf)                    size: 78739 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/mcmthesis-aaa-eps-converted-to.pdf ./figures/mcmthesis-aaa.eps>
-(epstopdf)             \includegraphics on input line 160.
+(epstopdf)             \includegraphics on input line 166.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/mcmthesis-aaa-eps-converted-to.pdf, id=127, 421.575pt x 317.185pt>
+<./figures/mcmthesis-aaa-eps-converted-to.pdf, id=132, 421.575pt x 317.185pt>
 File: ./figures/mcmthesis-aaa-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/mcmthesis-aaa-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/mcmthesis-aaa-eps-converted-to.pdf  used on input line 160.
+Package pdftex.def Info: ./figures/mcmthesis-aaa-eps-converted-to.pdf  used on input line 166.
 (pdftex.def)             Requested size: 341.43306pt x 256.89423pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3] [4 <./figures/mcmthesis-aaa-eps-converted-to.pdf>]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 229.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 260.
  (d:/texlive/2019/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 245.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 276.
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
 
  []
 
-(d:/Users/code/Learning only/latexonly/./code/mcmthesis-matlab1.m
+[5] (d:/Users/code/Learning only/latexonly/./code/mcmthesis-matlab1.m
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <9> not available
 (Font)              Font shape `T1/pcr/b/n' tried instead on input line 1.
-) [5] (d:/Users/code/Learning only/latexonly/./code/ex10.cpp [6]) 
+) (d:/Users/code/Learning only/latexonly/./code/ex10.cpp [6]) 
 AED: lastpage setting LastPage
 [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 261.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 261.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 292.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 292.
  (d:/Users/code/Learning only/latexonly/mcmthesis-demo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 261.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 261.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 292.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 292.
 Package rerunfilecheck Info: File `mcmthesis-demo.out' has not changed.
-(rerunfilecheck)             Checksum: 639240B5F65286F68BCE16369305CD35;1067.
+(rerunfilecheck)             Checksum: E57DE285B45DA6E5FD4351B8CF656D2A;1122.
  ) 
 Here is how much of TeX's memory you used:
- 11566 strings out of 492623
- 158120 string characters out of 6133290
- 484664 words of memory out of 5000000
- 15088 multiletter control sequences out of 15000+600000
+ 11570 strings out of 492623
+ 158178 string characters out of 6133290
+ 472664 words of memory out of 5000000
+ 15090 multiletter control sequences out of 15000+600000
  47740 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,13n,99p,931b,2191s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,14n,99p,931b,2190s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><d:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on "d:/Users/code/Learning only/latexonly/mcmthesis-demo.pdf" (9 pages, 248779 bytes).
+Output written on "d:/Users/code/Learning only/latexonly/mcmthesis-demo.pdf" (9 pages, 254458 bytes).
 PDF statistics:
- 320 PDF objects out of 1000 (max. 8388607)
- 290 compressed objects within 3 object streams
- 108 named destinations out of 1000 (max. 500000)
- 158 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 328 PDF objects out of 1000 (max. 8388607)
+ 298 compressed objects within 3 object streams
+ 110 named destinations out of 1000 (max. 500000)
+ 166 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -295,6 +295,10 @@ INPUT d:/texlive/2019/texmf-dist/tex/latex/psnfss/t1pcr.fd
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrr8t.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplr8t.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplb8t.tfm
+INPUT d:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplr8t.vf
+INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
+INPUT d:/texlive/2019/texmf-dist/fonts/vf/adobe/courier/pcrr8t.vf
+INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
 INPUT d:/Users/code/Learning only/latexonly/./code/mcmthesis-matlab1.m
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplr8t.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrr8t.tfm
@@ -302,18 +306,14 @@ INPUT d:/Users/code/Learning only/latexonly/./code/mcmthesis-matlab1.m
 INPUT d:/Users/code/Learning only/latexonly/./code/mcmthesis-matlab1.m
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrb8t.tfm
 INPUT d:/Users/code/Learning only/latexonly/./code/ex10.cpp
-INPUT d:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplr8t.vf
-INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
-INPUT d:/texlive/2019/texmf-dist/fonts/vf/adobe/courier/pcrr8t.vf
-INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
+INPUT d:/Users/code/Learning only/latexonly/./code/ex10.cpp
+INPUT d:/Users/code/Learning only/latexonly/./code/ex10.cpp
 INPUT d:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/vf/adobe/courier/pcrb8t.vf
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrb8r.tfm
 INPUT d:/texlive/2019/texmf-dist/fonts/vf/adobe/courier/pcrr8t.vf
 INPUT d:/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
-INPUT d:/Users/code/Learning only/latexonly/./code/ex10.cpp
-INPUT d:/Users/code/Learning only/latexonly/./code/ex10.cpp
 INPUT d:/Users/code/Learning only/latexonly/mcmthesis-demo.aux
 INPUT d:/Users/code/Learning only/latexonly/mcmthesis-demo.out
 INPUT d:/Users/code/Learning only/latexonly/mcmthesis-demo.out
