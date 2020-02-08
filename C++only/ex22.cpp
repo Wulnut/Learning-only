@@ -11,7 +11,7 @@ bool binary_search(int x) {
     int l = 0, r = n;
 
     while(r - l >= 1) {
-        int i = (l +r) >> 1;
+        int i = (l + r) >> 1;
         
         if(q[i] == x) return true;
         else if (q[i] < x) l = i + 1;
