@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.12)  12 FEB 2020 00:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.12)  12 FEB 2020 22:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -565,20 +565,20 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7.52812> on input line 19.
- [2] (d:/Users/code/Learning-only/latexonly/ex2/English-article.aux) ) 
+ [2] [3] (d:/Users/code/Learning-only/latexonly/ex2/English-article.aux) ) 
 Here is how much of TeX's memory you used:
  14631 strings out of 492623
  279404 string characters out of 6133290
- 314648 words of memory out of 5000000
+ 316648 words of memory out of 5000000
  18385 multiletter control sequences out of 15000+600000
  542468 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,8n,63p,525b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb>
-Output written on d:/Users/code/Learning-only/latexonly/ex2/English-article.pdf (2 pages, 128702 bytes).
+Output written on d:/Users/code/Learning-only/latexonly/ex2/English-article.pdf (3 pages, 133529 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 104 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
