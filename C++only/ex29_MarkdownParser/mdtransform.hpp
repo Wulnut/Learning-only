@@ -6,9 +6,9 @@
 #include <vector>
 #include <utility>
 #include <cctype>
+#include <fstream>
 using namespace std;
 
-#define maxLength 100000
 
 // 关键字枚举
 
@@ -49,7 +49,6 @@ const string frontTag[] = {
 };
 
 //HTML 后置标签
-
 const string backTag[] = {
     "", "</p>", "", "</ul>", "</ol>", "</li>", "</em>", "</strong>", "",
     "", "", "</blockquote>",
@@ -57,9 +56,30 @@ const string backTag[] = {
     "</pre></code>", "</code>"
 };
 
+
+// 保证正文内容的结构
+typedef struct node {
+    int type;                  // 节点代表类型
+    vector<node* > ch;   
+    string elem[3];            // 用来存放一些重要属性， elem[0] 保存了显示的内容
+                              // elem[1] 保存了连接， elem[2] 保存了title
+    node (int _type) : type(_type) {}
+} node;
+
+// 保存目录结构
+
+typedef struct Cnode {
+    vector<Cnode* > ch;
+    string heading;
+    string tag;
+    Cnode (const string& hd) : heading(hd) {}
+} Cnode;
+
+
+
 class MarkdownTransform {
 private:
-    string conten; 
+    string content; 
     string TOC;
     node* root;
     node* now;
@@ -72,30 +92,20 @@ public:
     string getTableOfContents() { return TOC; }
 
     // 获取 Markdown 内容
-    string getContents() { return conten; }
+    string getContents() { return content; }
 
     // 析构函数
     ~MarkdownTransform();
+
+    // 方法
+    node* findNode(int depth);
+    pair<int, char* > start(char* src);
+    pair<int, char* > JudgeType(char* src);
+    void dfs(node* v);
+    void Cdfs(Cnode* v, string index);
+    template <typename T> void destroy(T* v);
 };
 
-
-// 保存目录结构
-
-typedef struct Cnode {
-    vector<Cnode* > ch
-    string heading;
-    string tag;
-    Cnode (const string& hd) : heading(hd) {}
-} Cnode;
-
-// 保证正文内容的结构
-typedef struct node {
-    int type;                  // 节点代表类型
-    vector<node* > ch;   
-    string elem[3];            // 又来存放桑额重要属性， elem[0] 保存了显示的内容
-                              // elem[1] 保存了连接， elem[2] 保存了title
-    node (int _type) : type(_type) {}
-} node;
 
 int cntTag;         // 标记索引到的html内容
 char s[maxLength]; // 缓存数组，用来缓存要处理的行
@@ -104,7 +114,7 @@ char s[maxLength]; // 缓存数组，用来缓存要处理的行
 // 开始解析一行中开始的空格和 tab
 // 返回值： 由空格数和内用除的 char* 指针组成的 pair
 
-inline pair<int, char* > start(char* src) {
+inline pair<int, char* > MarkdownTransform :: start(char* src) {
     // 统计空格和tab的个数
     int cntspace = 0;
     int cnttab = 0;
@@ -116,7 +126,7 @@ inline pair<int, char* > start(char* src) {
 
     // 从改行的第一个字符读起， 统计空格键和tab键
     // 当遇到不是空格键和tab键时，立即停止
-    for (int i = 0; src[i] != '\0', ++ i) {
+    for (int i = 0; src[i] != '\0'; ++ i) {
         if (src[i] == ' ') cntspace ++;
         if (src[i] == '\t') cnttab ++;
 
@@ -131,7 +141,7 @@ inline pair<int, char* > start(char* src) {
 // 判断当前行的类型
 // src: 源串
 // 返回值： 当前行的类型和除去行标志性关键字的正是内容的char* 指针组成的pair
-inline pair<int, char* > JudgeType(char* src) {
+inline pair<int, char* > MarkdownTransform :: JudgeType(char* src) {
     char* ptr = src;
 
     //跳过‘#’
@@ -184,7 +194,7 @@ inline bool isHref(node* v) {
 // 给定数的深度寻找节点
 // depth： 树的深度
 // 返回值：找到的节点指针
-inline node* findNode(int depth) {
+inline node* MarkdownTransform :: findNode(int depth) {
     node* ptr = root;
 
     while (!ptr->ch.empty()) {
@@ -271,18 +281,18 @@ void insert(node* v, const string& src) {
 
                 if (src[i] != ')') {
                     for (i ++ ; i < n - 1 && src[i] != ')'; ++ i) {
-                        if (src[i] != "")
+                        if (src[i] != '"')
                         v->ch.back()->elem[2] += string(1, src[i]);
                     }
                 }
 
-                v-ch.push_back(new node(nul));
+                v->ch.push_back(new node(nul));
                 continue;
             }
 
             // 处理超链接
             if (ch == '[' && !incode && !instrong && !inem && !inatuolink) {
-                v-ch.push_back(new node(href));
+                v->ch.push_back(new node(href));
 
                 for (i ++ ; i < n - 1 && src[i] != ']'; ++ i) {
                     v->ch.back()->elem[0] += string(1, src[i]);
@@ -291,18 +301,18 @@ void insert(node* v, const string& src) {
                 i ++;
 
                 for (i ++; i < n - 1 && src[i] != ' ' && src[i] !=')'; ++ i) {
-                    v-ch.back()->elem[0] += string (1, src[i]);
+                    v->ch.back()->elem[0] += string (1, src[i]);
                 }
 
                 if (src[i] != ')') {
                     for (i ++ ; i < n - 1 && src[i] != ')'; i++) {
-                        if (src[i] != ""){
+                        if (src[i] != '"'){
                             v->ch.back()->elem[2] += string(1, src[i]);
                         }
                     }
                 }
 
-                v-ch.push_back(new node(nul));
+                v->ch.push_back(new node(nul));
                 continue;
             }
 
@@ -348,8 +358,8 @@ inline void mkpara(node* v) {
     v->ch.push_back(x);
 }
 
-void dfs(node* v) {
-    if (v-type == paragraph && v->elem[0].empty() && v-ch.empty()) return ;
+void MarkdownTransform :: dfs(node* v) {
+    if (v->type == paragraph && v->elem[0].empty() && v->ch.empty()) return ;
 
     content += frontTag[v->type];
     bool flag = true;
@@ -362,13 +372,13 @@ void dfs(node* v) {
 
     // 处理超链接
     if (isHref(v)) {
-        content += "<a href=\"" + v->elem[1] + "\" title=\ "" + v->elem[2] + "\">" + v->elem[0] + "</a>";
+        content += "<a href=\"" + v->elem[1] + "\" title=\"" + v->elem[2] + "\">" + v->elem[0] + "</a>";
         flag = false;
     }
 
     // 处理照片
     if (isImage(v)) {
-        content += "<img src=\"" + v->elem[0]> + "\" src=\"" + v->elem[1] + "\" title=\ "" + v->elem[2] + "\"/>";
+        content += "<img src=\"" + v->elem[0]> + "\" src=\"" + v->elem[1] + "\" title=\"" + v->elem[2] + "\"/>";
         flag = false;
     }
 
@@ -387,15 +397,15 @@ void dfs(node* v) {
     content += backTag[v->type];
 }
 
-void Cdfs(Conde* v, string index) {
-    TOC += "<li>\n"
+void MarkdownTransform :: Cdfs(Cnode* v, string index) {
+    TOC += "<li>\n";
     TOC += "<a href=\"#" + v->tag + "\">" + index + " " + v->heading + "</a>\n";
 
     int n = int(v->ch.size());
     if (n) {
         TOC += "<ul>\n";
         for (int i = 0; i < n; ++ i) {
-            Cdfs(v->ch[i]);, index + to_string(i + 1) + ".");
+            Cdfs(v->ch[i], index + to_string(i + 1) + ".");
         }
 
         TOC += "</ul>\n";
@@ -405,19 +415,223 @@ void Cdfs(Conde* v, string index) {
 }
 
 // 构造函数
-MarkdownTransform :: MarkdownTransform(const string& filename) 
+MarkdownTransform :: MarkdownTransform(const string& filename) {
+    // 首先对文档得树结构进行初始化，并将当前指针指向根节点
+    Croot = new Cnode("");
+    root = new node(nul);
+    now = root;
+
+    // 从文件流中读取文件
+    ifstream fin(filename);
+
+    // 默认不是新段落，默认不在代码块内
+    bool newpara = false;
+    bool inblock = false;
+
+    // 直到读取eof结束
+    while(!fin.eof()) {
+        // 从文件中获取一行
+        fin.getline(s, maxLength);
+
+        // 处理不在代码块且需要换行得情况
+        if (!inblock && isCutline(s)) {
+            now = root;
+            now->ch.push_back(new node(hr));
+            newpara = false;
+            continue;
+        }
+
+        // 计算一行中开始得空格和tab数
+        pair<int, char*> ps = start(s);
+
+        // 如果没有位于代码块中，且没有统计到空格和tab，则直接去读下一行
+        if (!inblock && ps.second == nullptr) {
+            now = root;
+            newpara = true;
+            continue;
+        }
+
+        // 分析改行文本的类型
+        pair<int, char*> TJ = JudgeType(ps.second);
+
+        // 如果是代码块类型
+        if (TJ.first == blockcode) {
+            // 如果位于代码块中，则push一个空类型节点
+            inblock ? now->ch.push_back(new node(nul)) : now->ch.push_back(new node(blockcode));
+            inblock = !inblock;
+            continue;
+        }
+
+        // 如果在代码块中，直接将内容拼接到当前节点
+        if (inblock)  {
+            now->ch.back()->elem[0] += string(s) + '\n';
+            continue;
+        } 
+
+        // 如果是普通段落
+        if (TJ.first == paragraph) {
+            if (now == root) {
+                now = findNode(ps.first);
+                now->ch.push_back(new node(paragraph));
+                now = now->ch.back();
+            }
+
+            bool flag = false;
+
+            if (newpara && !now->ch.empty()) {
+                node* ptr = nullptr;
+                for (auto i : now->ch) {
+                    if (i->type == nul) {
+                        ptr = i;
+                    }
+                }
+                
+                if (ptr != nullptr) {
+                    mkpara(ptr);
+                }
+
+                flag = true;
+            }
+
+            if (flag) {
+                now->ch.push_back(new node(paragraph));
+                now = now->ch.back();
+            }
+
+            now->ch.push_back(new node(nul));
+            insert(now->ch.back(), string(TJ.second));
+            newpara = false;
+            continue;
+        }
+
+        now = findNode(ps.first);
+
+        // 如果是标题行，则向其标签内插入属性tag
+        if (TJ.first >= h1 && TJ.first <= h6) {
+            now->ch.push_back(new node(TJ.first));
+            now->ch.back()->elem[0] = "tag" + to_string(++ cntTag);
+            insert(now->ch.back(), string(TJ.second));
+            Cins(Croot, TJ.first - h1 + 1, string(TJ.second), cntTag);
+        }
+
+        // 如果是无序列表
+        if (TJ.first == ul) {
+            if (now->ch.empty() || now->ch.back()->type != ul) {
+                now->ch.push_back(new node(nul));
+            } 
+
+            now = now->ch.back();
+            bool flag = false;
+
+            if (newpara && !now->ch.empty()) {
+                node* ptr = nullptr;
+
+                for (auto i : now->ch) {
+                    if (i->type == li) {
+                        ptr = i;
+                    }
+                }
+
+                if (ptr != nullptr) {
+                    mkpara(ptr);
+                    flag = true;
+                }
+            }
+
+            now->ch.push_back(new node(li));
+            now = now->ch.back();
+
+            if (flag) {
+                now->ch.push_back(new node(paragraph));
+                now = now->ch.back();
+            }
+
+            insert(now, string(TJ.second));
+        }
+
+        // 如果是有序列表
+        if (TJ.first == ol) {
+            if (now->ch.size() || now->ch.back()->type != ol) {
+                now->ch.push_back(new node(ol));
+            }
+
+            now = now->ch.back();
+            bool flag = false;
+            
+            if (newpara && !now->ch.empty()) {
+                node* ptr = nullptr;
+                
+                for (auto i : now->ch) {
+                    if (i->type == li) {
+                        ptr = i;
+                    }
+                }
+
+                if (ptr != nullptr) {
+                    mkpara(ptr);
+                }
+
+                flag = true;
+            }
+
+            now->ch.push_back(new node(li));
+            now = now->ch.back();
+
+            if (flag) {
+                now->ch.push_back(new node(paragraph));
+                now = now->ch.back();
+            }
+
+            insert(now, string(TJ.second));
+        }
+
+        // 如果是引用
+        if (TJ.first == quote) {
+            if (now->ch.empty() || now->ch.back()->type != quote) {
+                now->ch.push_back(new node(quote));
+            }
+
+            now = now->ch.back();
+
+            if (newpara || now->ch.empty()) {
+                now->ch.push_back(new node(paragraph));
+            }
+
+            insert(now->ch.begin(), string(TJ.second));
+        }
+
+        newpara = false;
+    }
+
+    // 文件读取完毕
+    fin.close();
+
+    // 深搜遍历整个语法树
+    dfs(root);
+
+    // 构造目录
+    TOC += "<ul>";
+    for (int i = 0; i < int(Croot->ch.size()); ++ i) {
+        Cdfs(Croot->ch[i], to_string(i + 1) + ".");
+    }
+    TOC += "</ul>";
+}
+
+MarkdownTransform :: ~MarkdownTransform() {
+    destroy(Croot);
+    destroy(root);
+}
 
 
+// 销毁节点
+template <typename T>
+void MarkdownTransform :: destroy(T* v) {
+    for (int i = 0; i < int(v->ch.size()); ++ i) {
+        destroy(v->ch[i]);
+    }
 
-
-
-
-
-
-
-
-
-
+    delete v;
+}
 
 
 #endif
