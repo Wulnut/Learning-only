@@ -25,7 +25,7 @@ typedef struct{
 void CreateALGraph(GraphAdjList &G){
     int i, j, k;
     EdgeNode *e;
-    cout << "ÊäÈë¶¥µã¸öÊýºÍ±ßÊý\n";
+    cout << "ï¿½ï¿½ï¿½ë¶¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í±ï¿½ï¿½ï¿½\n";
     cin >> G.numVertexes >> G.numEdges;
     for ( i = 0; i < G.numVertexes; ++i){
         cin >> G.ajdList[i].data;
@@ -33,7 +33,7 @@ void CreateALGraph(GraphAdjList &G){
     }
 
     for ( k = 0; k < G.numEdges; ++k){
-        cout << "ÊäÈë±ß£¨vi, vj£©ÉÏµÄ¶¥µãÐòºÅ£º\n";
+        cout << "ï¿½ï¿½ï¿½ï¿½ß£ï¿½vi, vjï¿½ï¿½ï¿½ÏµÄ¶ï¿½ï¿½ï¿½ï¿½ï¿½Å£ï¿½\n";
         cin >> i >> j;
 
         e = new EdgeNode;

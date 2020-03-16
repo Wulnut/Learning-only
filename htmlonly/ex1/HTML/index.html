@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible">
+    <link rel="stylesheet" type="text/css"  href="/htmlonly/ex1/css/index.css">
+    <script tpye="text/javascript" src="/htmlonly/ex1/JS/index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1>表格</h1>
+        <a href = "http://www.wulnut.top" target = "_blank">博客</a>
+    </section>
+    <section>
+        <h1>表格</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>表头1</th>
+                    <th>表头2</th>
+                    <th>表头3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>数据1</td>
+                    <td>数据2</td>
+                    <td>数据3</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <!---from 表示表单-->
+        <form method="GET" action="http://www.wulnut.top">
+            <p>
+                <select name="selcet1">
+                    <option value="1">一</option>
+                    <option value="2">二</option>
+                </select>
+            </p>
+            <p>
+                <span>账号:</span>
+                <input type="text" name="text1" />
+            </p>
+            <p>
+                <span>密码:</span>
+                <input type="password" name="password" />
+            </p>
+            <p>
+                <input type="radio" name="radio1" id="radio1-1" />
+                <label for="radio1-1">选项一</label>
+                <input type="radio" name="radio1" id="radio1-2" />
+                <label for="radio1-2">选项二</label>
+            </p>
+            <!--radio表示为单选框，checkbox表示为复选框，如果单选框的name的值相同表示他们是一组的--->
+            <p>
+                <button type="button">普通按钮</button>
+                <!--普通按钮是没有作用的，出来给他绑定事件-->
+                <button type="submit">提交按钮</button>
+                <!--buttom type如果是submit则表示是提交，并提交到某个网址下-->
+                <input type="submit" value="提交按钮二" />
+                <!---input type = submit的时候也是一提交按钮-->
+                <button type="reset">重置按钮</button>
+                <!--button type 为reset时表示为重置-->
+            </p>
+        </form>
+    </section>
+
+    <article>
+        <p id="p1">Google</p>
+    </article>
+
+    <section>
+        <p id = "p2">hello</p>
+        <button onclick="demo2()">按钮</button>
+        <a id = "a1", href="http://www.wulnut.top">wulnut</a>
+    </section>
+</body>
+</html>

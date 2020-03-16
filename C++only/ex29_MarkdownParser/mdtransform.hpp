@@ -476,7 +476,7 @@ MarkdownTransform :: MarkdownTransform(const string& filename) {
                 now = now->ch.back();
             }
 
-            bool flag = false;
+            bool flag = false; // 确立是否可以建立paragrahs
 
             if (newpara && !now->ch.empty()) {
                 node* ptr = nullptr;
@@ -502,7 +502,7 @@ MarkdownTransform :: MarkdownTransform(const string& filename) {
             insert(now->ch.back(), string(TJ.second));
             newpara = false;
             continue;
-        }
+        
 
         now = findNode(ps.first);
 
@@ -601,7 +601,8 @@ MarkdownTransform :: MarkdownTransform(const string& filename) {
         }
 
         newpara = false;
-    }
+     }
+   }
 
     // 文件读取完毕
     fin.close();

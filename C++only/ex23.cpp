@@ -33,9 +33,11 @@ int main(){
 
     cin >> i;
 
-    i = fib(i);
+    //i = fib(i);
 
-    cout << i;
+    //cout << i;
+
+    fibb(i);
 
     return 0;
 }
