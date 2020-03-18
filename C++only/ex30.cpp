@@ -17,6 +17,7 @@ bool dfs(int v, int c) {
         }
 
         if (color[G[v][i]])
+        return ;
     }
 }
 
