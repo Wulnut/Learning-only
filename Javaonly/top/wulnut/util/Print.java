@@ -6,7 +6,7 @@ Java的lib中的方法是通过多个文件加的方式，来防止冲突。
 //top/wulnut/util/Print.java
 package top.wulnut.util;
 
-import java.util.*;
+//import java.util.*;
 import java.io.*;
 
 public class Print {

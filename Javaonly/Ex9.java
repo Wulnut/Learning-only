@@ -58,19 +58,7 @@ public class Ex9 {
 
         Scanner in = new Scanner(System.in);
 
-        int balance = 0;
-
-        while(true) {
-            System.out.println("请投币：");
-            
-            int amount = in.nextInt();
-
-            balance = balance + amount;
-
-            if (balance >= 10) {
-                
-            }
-        }
+        in.close();
     }
 }
 

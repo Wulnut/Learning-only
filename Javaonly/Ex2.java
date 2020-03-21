@@ -1,4 +1,4 @@
-import java.util.*;
+//import java.util.*;
 public class Ex2 {
     static boolean condition() {
         boolean result = Math.random() < 0.99;

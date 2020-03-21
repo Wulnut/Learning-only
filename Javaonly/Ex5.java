@@ -1,4 +1,4 @@
-import java.util.*;
+//import java.util.*;
 
 public class Ex5 {
     static void printArray(Object... args) {//可变参数列表

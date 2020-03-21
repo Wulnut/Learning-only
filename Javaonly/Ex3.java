@@ -4,7 +4,7 @@
 *
 */
 
-import java.util.*;
+//import java.util.*;
 public class Ex3 {
     public static void main(String[] args) {
         for (int i = 1, j = i + 10; i < 5; i++, j = i * 2) {
