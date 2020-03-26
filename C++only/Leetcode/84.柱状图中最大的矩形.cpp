@@ -3,7 +3,9 @@
  *
  * [84] 柱状图中最大的矩形
  */
-
+#include <vector>
+#include <stack>
+#include <algorithm>
 // @lc code=start
 class Solution {
 public:

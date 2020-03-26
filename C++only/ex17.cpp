@@ -12,7 +12,7 @@ struct node {
     int y;
     int d;
     node(int xx, int yy, int dd) : x(xx), y(yy), d(dd) {}
-    friend bool operator < (node a, node b) {
+    friend bool operator < (const node& a, const node& b) {
         return a.d > b.d;
     }
 };
