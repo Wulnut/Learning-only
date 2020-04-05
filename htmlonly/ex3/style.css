@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: content;
+    align-items: center;
+    background-color:rgb(26, 26, 26);
+}
+
+.container {
+    width: 300px;
+    height: 450px;
+    border-radius:20px;
+    background-color:rgb(35, 35, 35);
+    position: relative;
+    overflow: hidden;
+}
+
+.text {
+    position: absolute;
+    color: #333;
+    font-size: 50px;
+    left: -60px;
+    font-weight: 800;
+}
+
+.circle {
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background-color:rgb(154, 218, 43);
+    top: -30px;
+    right: -50px;
+    transition: width 0.4s, height 0.4s, top 0.4s, right 0.4s;
+}
+
+.img {
+    position: relative;
+    top: 0;
+    transition: top 0.4s ease-out;
+}
+
+.img img {
+    width: 250px;
+    position: absolute;
+    top: 100px;
+    left: 26px;
+}
+
+.container h3 {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    letter-spacing: 2px;
+    transition: bottom 0.5s ease-out;
+}
+
+.size, .color, .a {
+    opacity: 0;
+    color: #fff;
+
+}
+
+.size {
+    position: relative;
+    width: 180px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: -330px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 0.4s, opacity 0.4s;
+}
+
+.size .num {
+    width: 28px;
+    height: 28px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 13px;
+    transition: background-color 0.2s;
+}
+.size .num:hover {
+    background-color: rgb(186, 218, 131);
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+.color {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    display: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: -300px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 0.4s, opacity 0.4s;
+}
+
+.color .co {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+.color .co:nth-child(2) {
+    background-color:rgb(214, 211, 221);
+}
+.color .co:nth-child(3) {
+    background-color:rgb(179, 220, 204);
+}
+.color .co:nth-child(4) {
+    background-color:rgb(243, 222, 129);
+}
+.color .co:nth-child(5) {
+    background-color:rgb(235, 232, 227);
+}
+.color .co:nth-child(6) {
+    background-color:rgb(154, 218, 43);
+}
+.color .co:nth-child(7) {
+    background-color:rgb(220, 56, 82);
+}
+
+.a {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    bottom: -340px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    background-color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: bottom 0.4s, opacity 0.4s;
+}
+.a a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* 给卡片设计honer动画 */
+.container:hover .circle {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
+    background-color:rgb(154, 218, 43);
+    top: -300px;
+    right: -150px;
+    transition: width 0.4s, height 0.4s, top 0.4s, right 0.4s;
+}
+
+.container:hover .img {
+    position: relative;
+    top: -80px;
+    transition: top 0.4s ease-out;
+}
+.container:hover h3 {
+    bottom: 170px;
+    transition: bottom 0.4s;
+}
+.container:hover .size {
+    position: relative;
+    width: 180px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: -290px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+    transition: bottom 0.4s 0.2s, opacity 0.4s 0.2s;
+}
+
+.container:hover .color {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    display: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: -280px;
+    left: 50%;
+    opacity: 1;
+    transform: translateX(-50%);
+    transition: bottom 0.4s 0.3s, opacity 0.4s 0.3s;
+}
+.container:hover .a {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    bottom: -280px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    background-color:#fff;
+    display: flex;
+    opacity: 1;
+    justify-content: center;
+    align-items: center;
+    transform: bottom 0.4s, opacity 0.4s;
+}
+.a {
+    cursor: pointer;
+}
