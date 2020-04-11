@@ -1,0 +1,68 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Display",
+            "request": "launch",
+            "mainClass": "Ex14.src.display.Display",
+            "projectName": "Learning-only_391a7739"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Clock",
+            "request": "launch",
+            "mainClass": "Ex14.clock.Clock",
+            "projectName": "Learning-only_391a7739"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex11",
+            "request": "launch",
+            "mainClass": "Ex11",
+            "projectName": "Learning-only_391a7739"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex10",
+            "request": "launch",
+            "mainClass": "Ex10",
+            "projectName": "Learning-only_391a7739"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ex8",
+            "request": "launch",
+            "mainClass": "Ex8",
+            "projectName": "Learning-only_391a7739"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "Learning-only_391a7739"
+        },
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\Program Files\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\gdb.exe",
+            "preLaunchTask": "g++",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}
