@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Users/code/jetbrains/C++/ACM/Lanqiao6.cpp
+iostream
+-
+algorithm
+-
+cmath
+-
+cstring
+-
+
