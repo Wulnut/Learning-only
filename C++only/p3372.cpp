@@ -67,7 +67,7 @@ void update_add(int l, int r, int c, int s, int t, int p) {
     }
 
     if (l <= m) update_add(l, r, c, s, m, p << 1);
-    if (r > m)  update_add(l, r, c, m + 1, t, p << 1  1);
+    if (r > m)  update_add(l, r, c, m + 1, t, p << 1 | 1);
 
     // 区间合并
     date[p] = date[p << 1] + date[(p << 1) + 1];
