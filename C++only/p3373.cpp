@@ -87,7 +87,7 @@ ll query(ll l, ll r, ll s, ll t, ll p) {
 
     ll sum = 0;
     if (l <= m) sum  = query(l, r, s, m, p << 1);
-    if (r >  m) sum += query(l, r, m + 1, t, p << 1 | 1) % q;
+    if (r >  m) sum += query(l, r, m + 1, t, p << 1 | 1);
     return sum;
 }
 
