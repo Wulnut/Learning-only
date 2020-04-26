@@ -1,22 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="978f60f5-e47c-4b16-b359-33fee20153d2" name="Default Changelist" comment="" />
+    <list default="true" id="978f60f5-e47c-4b16-b359-33fee20153d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/.idea/ACM.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/50.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/AT2412.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/Lanqiao1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/Lanqiao2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/Lanqiao3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/Lanqiao4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/Lanqiao5.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/Lanqiao6.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/P1387.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/P3131.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/P3372.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/U69096.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/aw101.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/ACM.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/ACM.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/3.15.3/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/3.16.5/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/3.16.5/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/3.16.5/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/3.16.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/ACM.dir/50.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/ACM.dir/AT2412.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/ACM.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/ACM.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/ACM.dir/Lanqiao2.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/ACM.dir/Lanqiao5.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/ACM.dir/Lanqiao6.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/ACM.dir/P3131.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/ACM.dir/U69096.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/ACM.dir/aw101.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/ACM.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/ACM.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/ACM.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/ACM.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/ACM.dir/ex51.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/ACM.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/ACM.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/ACM.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/ACM.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/ACM.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/ACM.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/ACM.dir/p3397.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/ACM.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/ans.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/ex48.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/ex49.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/ex51.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/fileRead/P3372.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/fileRead/ans.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/fileRead/note.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/maphash.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/p3373.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ACM/p3397.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/JTable/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/JTable/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/JTable/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/JTable/JTable.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/JTable/note.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/JTable/out/production/JTable/ArrayIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/JTable/out/production/JTable/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/JTable/out/production/JTable/KCB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/JTable/out/production/JTable/KCBdata.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/JTable/src/ArrayIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/JTable/src/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/JTable/src/KCB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/JTable/src/KCBdata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/Shapes/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/Shapes/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/Shapes/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/Shapes/Shapes.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/Shapes/out/production/Shapes/shapes/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/Shapes/out/production/Shapes/shapes/Line.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/Shapes/out/production/Shapes/shapes/MyPic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/Shapes/out/production/Shapes/shapes/Picture$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/Shapes/out/production/Shapes/shapes/Picture$ShapesPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/Shapes/out/production/Shapes/shapes/Picture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/Shapes/out/production/Shapes/shapes/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/Shapes/out/production/Shapes/shapes/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/Shapes/out/production/Shapes/shapes/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/Shapes/src/shapes/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/Shapes/src/shapes/Line.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/Shapes/src/shapes/MyPic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/Shapes/src/shapes/Picture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/Shapes/src/shapes/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/Shapes/src/shapes/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/Shapes/src/shapes/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/cells/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/cells/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/cells/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/cells/cells.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/cells/out/production/cells/cell/Cell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/cells/out/production/cells/cellmachine/CellMachine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/cells/out/production/cells/field/Field.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/cells/out/production/cells/field/View.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/cells/src/cell/Cell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/cells/src/cellmachine/CellMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/cells/src/field/Field.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/cells/src/field/View.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/study/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/study/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/study/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/study/out/production/study/META-INF/study.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/study/out/production/study/castle/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/study/out/production/study/castle/Handler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/study/out/production/study/castle/HandlerBye.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/study/out/production/study/castle/HandlerGo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/study/out/production/study/castle/HandlerHelp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/study/out/production/study/castle/Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/study/src/castle/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/study/src/castle/Handler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/study/src/castle/HandlerBye.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/study/src/castle/HandlerGo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/study/src/castle/HandlerHelp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/study/src/castle/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Javaonly/study/study.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C++" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/field/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/field/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latexonly/ex1/mcmthesis-demo.fdb_latexmk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../latexonly/ex1/mcmthesis-demo.fdb_latexmk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latexonly/ex1/mcmthesis-demo.fls" beforeDir="false" afterPath="$PROJECT_DIR$/../../../latexonly/ex1/mcmthesis-demo.fls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latexonly/ex1/mcmthesis-demo.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../latexonly/ex1/mcmthesis-demo.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latexonly/ex1/mcmthesis-demo.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../latexonly/ex1/mcmthesis-demo.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latexonly/ex1/mcmthesis-demo.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../../../latexonly/ex1/mcmthesis-demo.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../latexonly/ex1/mcmthesis-demo.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../../../latexonly/ex1/mcmthesis-demo.tex" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
   <component name="ProjectId" id="1ZynPg90k3wgTvxaJmVbxiHsIrC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
     <configuration name="CellMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -52,32 +223,37 @@
       <workItem from="1585839067403" duration="651000" />
       <workItem from="1586243595451" duration="671000" />
       <workItem from="1586416971974" duration="923000" />
+      <workItem from="1587452252094" duration="1818000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1585820291958">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1587458481116">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585820291958" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1585820291958">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587458481116" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1587458481116">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585820291958" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1585820291958">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587458481116" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1587458481116">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585820291958" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1585820291958">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587458481116" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1587458481116">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585820291958" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587458481116" />
     <state x="337" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1586416974273">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="337" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1586416974273" />
+    <state x="28" y="0" key="new project wizard" timestamp="1587452800666">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="28" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1587452800666" />
   </component>
 </project>

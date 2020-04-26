@@ -42,6 +42,7 @@ public class View extends JPanel {
 				field.place(row, col, new Cell());
 			}
 		}
+		
 		View view = new View(field);
 		JFrame frame = new JFrame();
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
