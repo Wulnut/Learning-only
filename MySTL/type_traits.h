@@ -18,8 +18,23 @@ namespace MySTL {
 
     typedef m_bool_constant<true> m_true_type;
     typedef m_bool_constant<false> m_false_type;
-}
 
+    /****************************************************************/
+    // type traits
+    // is_pair
+    //  -- forward declaration begin
 
+    template <class T1, class T2>
+    struct pair;
+    
+    // -- forward declaration end
+
+    template <class T>
+    struct is_pair : MySTL::m_false_type {};
+
+    template <class T1, class T2>
+    struct is_pair<MySTL::pair<T1, T2>> : MySTL::m_true_type {};
+
+} // namespace MySTL
 
 #endif
