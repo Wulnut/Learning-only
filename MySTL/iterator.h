@@ -275,13 +275,107 @@ namespace MySTL {
                 -- current;
                 return tmp;
             }
-    }
+
+            self operator-- () {
+                ++ current;
+                return *this;
+            }
+
+            self operator-- (int) {
+
+                self tmp = *this;
+                ++ current;
+                return tmp;
+            }
+
+            self& operator+= (difference_type n) {
+
+                current -= n;
+                return *this;
+            }
+
+            self operator+ (difference_type n) const {
+                
+                return self(current  - n);
+            }
+
+            self& operator-= (difference_type n) {
+
+                current -= n;
+                return *this;
+            }
+
+            self operator- (difference_type n) const {
+                
+                return self(current + n);
+            }
+
+            reference operator[] (difference_type n) const {
+
+                return *(*this + n);
+            }
+    };
+
+    // 重载operator-
+    template <class Iterator>
+    typename reverse_iterator<Iterator>::difference_type
+    operator- (const reverse_iterator<Iterator>& lhs,
+               const reverse_iterator<Iterator>& rhs) {
+
+                   return rhs.base() - lhs.base();
+               }
+
+
+    // 重载比较操作符
+    template <class Iterator>
+    bool operator== (const reverse_iterator<Iterator>& lhs,
+                     const reverse_iterator<Iterator>& rhs) {
+
+                         return lhs.base() == rhs.base;
+                     }
+
+    template <class Iterator>
+    bool operator< (const reverse_iterator<Iterator>& lhs,
+                    const reverse_iterator<Iterator>& rhs) {
+
+                        return lhs.base() < rhs.base;
+                    }
+
+    template <class Iterator>
+    bool operator > (const reverse_iterator<Iterator>& lhs,
+                     const reverse_iterator<Iterator>& rh) {
+
+                         return lhs.base() > rhs.base(); 
+                     }
+
+    template <class Iterator>
+    bool operator!= (const reverse_iterator<Iterator>& lhs,
+                     const reverse_iterator<Iterator>& rhs) {
+                         
+                         return !(lhs == rhs);
+                     }
+
+    template <class Iterator>
+    bool operator> (const reverse_iterator<Iterator>& lhs,
+                    const reverse_iterator<Iterator>& rhs) {
+
+                         return rhs  < lhs;
+                    }
+    
+    template <class Iterator>
+    bool operator<= (const reverse_iterator<Iterator>& lhs,
+                     const reverse_iterator<Iterator>& rhs) {
+
+                         return !(rhs < lhs);
+                     }
+    
+    template <class Iterator>
+    bool operator>= (const reverse_iterator<Iterator>& lhs,
+                     const reverse_iterator<Iterator>& rhs) {
+
+                         return !(rhs < lhs);
+                     }
 
 } // namespace MySTL
-
-
-
-
-
 
 #endif // MYSTL_ITERATOR_H_
