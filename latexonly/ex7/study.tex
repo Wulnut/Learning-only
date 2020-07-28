@@ -1,0 +1,120 @@
+\documentclass[UTF8, a4paper, 12pt]{ctexart}
+
+\usepackage{lipsum}
+%\usepackage{xeCJK} %% 中文字体扩展管理宏包，务必添加！！
+\usepackage{amsthm}
+\usepackage{newtxtext}
+\usepackage[urlcolor=blue]{hyperref}
+\usepackage{threeparttable}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{float}
+\newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}}
+\usepackage{fancyhdr}
+\usepackage{booktabs}
+\usepackage{listings}
+\usepackage{clrscode}
+
+\zihao{4}
+\begin{document}
+%%\youyuan
+
+\begin{center}
+\LARGE
+    \textbf{\LaTeX{}学习练习} \\
+    \vspace{0.2em}
+    \large
+    作者:梁彦泽 \hspace{1cm} 博客:www.wulnut.top \\
+    \rule[0.5 \baselineskip]{\textwidth}{0.5pt}
+\end{center}
+
+%% \rule命令是用来画分割线的
+
+
+
+\textbf{摘\ 要} \\
+\large
+微分几何是运用微积分的理论研究空间的几何性质的数学分支学科。
+古典微分几何研究三维空间中的曲线和曲面，而现代微分几何开始研究更一般的空间——流形。
+
+
+\textbf{关键词}: 仔细\quad 仔细\quad 仔细\quad \\
+
+\begin{center}
+\rule[0.1 \baselineskip]{\textwidth}{0.5pt}
+\end{center}
+
+\section{引言}
+\indent
+近代由于对高维空间的微分几何和对曲线、曲面整体性质的研究，使微分几何和拓扑学、变分学、李群理论等有了密切的关系，这些数学领域和微分几何互相渗透，已成为现代数学的中心课题之一。
+微分几何在力学和一些工程技术问题方面有广泛的应用，比如，在弹性薄壳结构方面，在机械的齿轮啮合理论应用方面，都充分应用了微分几何学的理论。
+
+
+\section{第一部分}
+\indent
+在曲面上有两条重要概念，就是曲面上的距离和角。比如，在曲面上由一点到另一点的路径是无数的，但这两点间最短的路径只有一条，叫做从一点到另一点的测地线。在微分几何里，要讨论怎样判定曲面上一条曲线是这个曲面的一条测地线，还要讨论测地线的性质等。另外，讨论曲面在每一点的曲率也是微分几何的重要内容。
+
+
+%% bottomrule、midrule、toprule使用时都需要先引入包\usepackage{booktabs}才能使用
+\begin{table}[H]
+	\caption{表格}
+	\centering
+	\begin{tabular}{cccccccc}
+		\toprule[1.5pt]
+		年份  & 2006&2007&2008&2009&2010 & 2011 & 2012 \\
+		\midrule
+		A&57.95&58.187&59.1&59.652&60.22&61.072&61.418 \\
+		B &55.7957 &58.3199&58.8548&59.9983&60.3769 &60.9841 &61.7716 \\		
+		C&2.1543&0.1329&0.2452&0.3463&0.1569&0.0879&0.3536 \\		
+		D&0.0372 &0.0023&0.0041&0.0058&0.0026&0.0014&0.0058 \\
+		\bottomrule[1.5pt]
+		\label{tab1}
+	\end{tabular}
+\end{table}
+
+
+\begin{thebibliography}{9}%宽度9
+    \zihao{-5}
+    \bibitem{bib:one} 毕郑南.陈省身在数学领域的独特人生[J].兰台世界,2014,(4):68-69.
+    \bibitem{bib:two} 王永青,刘海波,贾振元, 等.基于活动标架理论的加工目标曲面再设计及刀位计算[J].机械工程学报,2012,48(19):141-147.
+\end{thebibliography}
+
+
+\section*{matlab源代码}
+\begin{lstlisting}[language=matlab]
+    clc;clear;
+    row = size(A)
+    row = size(A,1)
+    column = size(A,2)
+    [row,column] = size(A)
+\end{lstlisting}
+
+\section*{C++}
+\lstset{columns = flexible, numbers = left, numberstyle = \footnotesize, escapechar = `}
+\begin{lstlisting}[language = C++]
+    /*hello.cpp*/
+    #include<iostream>
+    int main() {
+        cout << "hello" << endl; // `$\frac{1}{\sin x}$`
+        return 0;
+    }
+\end{lstlisting}
+
+\begin{codebox}
+    \Procname{$\proc{Insertion-Sort}(A)$}
+    \li \For $j \gets 2$ \To $\id{length}[A]$
+    \li \Do
+    $\id{key} \gets A[j]$
+    \li \Comment Insert $A[j]$ into the sorted sequence
+    $A[1 \twodots j-1]$.
+    \li $i \gets j-1$
+    \li \While $i > 0$ and $A[i] > \id{key}$
+    \li \Do
+    $A[i+1] \gets A[i]$
+    \li $i \gets i-1$
+    \End
+    \li $A[i+1] \gets \id{key}$
+    \End
+\end{codebox}
+
+\end{document}
